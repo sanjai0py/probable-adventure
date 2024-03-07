@@ -1,0 +1,5 @@
+- an api server with swagger api docs generated. (using fast API to automate the process)
+- and send back the generated file to the client
+    - make the user specify which format the returned file should be
+- get the file from the server and display the appropriate swagger for it
+    - make the changes made in the local be displayed live in the swagger
