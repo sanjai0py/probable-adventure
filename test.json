@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Simple API",
+      "description": "A basic Swagger API example"
+    },
+    "paths": {
+      "/hello": {
+        "get": {
+          "summary": "Get a greeting",
+          "description": "Returns a simple greeting message",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
